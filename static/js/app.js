@@ -74,7 +74,7 @@ function Charts(sample) {
         }];
         //BUBBLE LAYOUT
         var bubbleLayout = { 
-            title: "BACTERIA", 
+            title: "Bacteria", 
             showlegend: false, 
             xaxis: {title: "OTU ID", titlefont: {color: "#8A2BE2"}, weight: "bold", automargin: true}, 
             yaxis: {title: "SAMPLE VALUES", titlefont: {color: "#8A2BE2"}, weight: "bold", automargin: true},
@@ -105,7 +105,7 @@ function Metadata(sample) {
         var trace3 = [{
             domain: {x: [0,1], y: [0,1]},
             value: washingFreq, 
-            title: {text: "BELLY BUTTON WASHING FREQUNECY"}, //Belly Button Washing Frequency
+            title: {text: "Belly Button Washing Frequency <br> Scrubs per Week"},
             type: "indicator", 
             mode: "gauge+number",
             gauge: {
